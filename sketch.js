@@ -141,6 +141,10 @@ Engine.update(engine);
 
   ball.display();
 
+  fill("black")
+  text("press right arrow to get one more chance",600,700);
+  
+
   //line(ball.body.position.x,ball.body.position.y,200,100)
 
   //line(ball.x,ball.y, bodyB.x,bodyB.y)
@@ -170,6 +174,9 @@ function mouseReleased(){
 function keyPressed(){
 	if(keyCode === RIGHT_ARROW){
 		slingshot = new SlingShot(200,100,ball.body)
+		function mouseDragged(){
+			Matter.Body.setPosition(ball.body,{x:mouseX,y:mouseY})
+		}
 	}
 }
 
