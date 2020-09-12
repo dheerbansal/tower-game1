@@ -70,7 +70,7 @@ function setup() {
 	//row4
 	block30 = new Block(790,35,50,45);
 
-	ball = new Polygon(200,200,50);
+	ball = new Polygon(200,500,20,20);
 
 	
 	slingshot = new SlingShot(200,100,ball.body)

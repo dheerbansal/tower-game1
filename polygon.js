@@ -10,6 +10,7 @@ class Polygon{
         this.radius = radius
         this.x = x
         this.y = y
+        this.image = loadImage("polygon.png");
         this.body = Bodies.circle(this.x,this.y,(this.radius)/2,options)
         World.add(world,this.body)
     }
@@ -20,7 +21,7 @@ class Polygon{
         rectMode(CENTER)
         strokeWeight(3)
         fill("purple")
-        ellipse(0,0,this.radius,this.radius);
+        image(this.image,0,0,70,70);
         pop();
         
         
