@@ -143,6 +143,8 @@ Engine.update(engine);
 
   fill("black")
   text("press right arrow to get one more chance",600,700);
+
+  
   
 
   //line(ball.body.position.x,ball.body.position.y,200,100)

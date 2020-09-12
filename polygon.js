@@ -17,6 +17,7 @@ class Polygon{
     display(){
         var pos = this.body.position;
        push();
+       
         translate(pos.x,pos.y);
         rectMode(CENTER)
         strokeWeight(3)
