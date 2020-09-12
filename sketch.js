@@ -167,5 +167,10 @@ function mouseReleased(){
    slingshot.fly();
 }
 
+function keyPressed(){
+	if(keyCode === UP_ARROW){
+		slingshot = new SlingShot(200,100,ball.body)
+	}
+}
 
 
