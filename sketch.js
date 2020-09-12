@@ -168,7 +168,7 @@ function mouseReleased(){
 }
 
 function keyPressed(){
-	if(keyCode === UP_ARROW){
+	if(keyCode === RIGHT_ARROW){
 		slingshot = new SlingShot(200,100,ball.body)
 	}
 }
