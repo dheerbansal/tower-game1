@@ -73,7 +73,7 @@ function setup() {
 	ball = new Polygon(200,500,20,20);
 
 	
-	slingshot = new SlingShot(200,100,ball.body)
+	slingshot = new SlingShot(100,400,ball.body)
 	
 
 	
@@ -146,6 +146,7 @@ Engine.update(engine);
 
   
   
+  
 
   //line(ball.body.position.x,ball.body.position.y,200,100)
 
@@ -175,7 +176,7 @@ function mouseReleased(){
 
 function keyPressed(){
 	if(keyCode === RIGHT_ARROW){
-		slingshot = new SlingShot(200,100,ball.body)
+		slingshot = new SlingShot(100,400,ball.body)
 		function mouseDragged(){
 			Matter.Body.setPosition(ball.body,{x:mouseX,y:mouseY})
 		}
