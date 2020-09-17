@@ -22,7 +22,7 @@ class Polygon{
         rectMode(CENTER)
         strokeWeight(3)
         fill("purple")
-        image(this.image,0,0,70,70);
+        image(this.image,0,0,50,50);
         pop();
         
         

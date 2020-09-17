@@ -20,7 +20,7 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	ground1 = new Ground(600,790,1200,25);
+	ground1 = new Ground(600,780,1200,10);
 	ground2 = new Ground(500,500,230,10);
 	ground3 = new Ground(800,200,230,10)
 	ground4 = new Ground(1000,500,230,10)
@@ -174,13 +174,11 @@ function mouseReleased(){
    slingshot.fly();
 }
 
-/*function keyPressed(){
+function keyPressed(){
 	if(keyCode === RIGHT_ARROW){
 		slingshot = new SlingShot(100,400,ball.body)
-		function mouseDragged(){
-			Matter.Body.setPosition(ball.body,{x:mouseX,y:mouseY})
-		}
+		
 	}
-}*/
+}
 
 
