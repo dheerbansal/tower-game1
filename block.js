@@ -29,7 +29,7 @@ class Block{
             push();
             translate(pos.x, pos.y);
             rectMode(CENTER);
-            fill(" yellow");
+            fill("red ");
            rect(0, 0, this.width, this.height);
            // image(this.image,0,0,this.width, this.height)
             pop();

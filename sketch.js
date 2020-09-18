@@ -20,7 +20,7 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	ground1 = new Ground(600,780,1200,10);
+	ground1 = new Ground(600,770,1200,10);
 	ground2 = new Ground(500,500,230,10);
 	ground3 = new Ground(800,200,230,10)
 	ground4 = new Ground(1000,500,230,10)
@@ -99,7 +99,7 @@ function setup() {
 function draw() {
 Engine.update(engine);
   rectMode(CENTER);
-  background("white");
+  background(0);
   
   ground1.display();
   ground2.display();

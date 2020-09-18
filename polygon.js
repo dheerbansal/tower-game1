@@ -20,7 +20,7 @@ class Polygon{
        
         translate(pos.x,pos.y);
         rectMode(CENTER)
-        strokeWeight(3)
+       // strokeWeight(3)
         fill("purple")
         image(this.image,0,0,50,50);
         pop();
